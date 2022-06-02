@@ -2,6 +2,7 @@
   font-family: sans-serif;
   text-align: start;
 }
+
 .selectCurrency {
   width: 500px;
   height: auto;
@@ -30,10 +31,13 @@
   padding: 7px 20px;
   margin-top: 10px;
   border-radius: 5px;
-  background: #0c110a;
+  background-color: #478f39;
   color: #fff;
   cursor: pointer;
   border-color: #324429;
+}
+.selectCurrency form .btn:hover {
+  background: #323630;
 }
 .exchangedAmount {
   background: #fff;
